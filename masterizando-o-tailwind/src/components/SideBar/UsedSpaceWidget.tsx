@@ -6,7 +6,7 @@ export function UsedSpaceWidget() {
           Used space
         </span>
 
-        <p className="text-sm/5 font-medium text-violet-500">
+        <p className="text-sm/5 text-violet-500">
           Your team has used 80% of your available space. Need more?
         </p>
 
