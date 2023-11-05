@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 import { Sidebar } from '@/components/SideBar'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,11 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
 
-          <main className="px-4 pb-12 pt-8">{children}</main>
+          <main className="px-8 pb-12 pt-8">{children}</main>
         </div>
       </body>
     </html>
