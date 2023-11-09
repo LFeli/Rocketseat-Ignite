@@ -13,7 +13,8 @@ const button = tv({
     variant: {
       primary: 'bg-violet-600 text-white hover:bg-violet-700',
       outline: 'border border-zinc-300 text-zinc-700 hover:bg-zinc-50',
-      ghost: 'text-zinc-500 rounded-md px-2 hover:bg-zinc-50 shadow-none',
+      ghost:
+        'text-zinc-500 dark:hover:text-zinc-400 rounded-md px-2 hover:bg-zinc-50 dark:hover:bg-zinc-800 shadow-none',
     },
   },
 
