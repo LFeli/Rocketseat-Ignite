@@ -70,7 +70,7 @@ export function SettingsTabs() {
           className="flex h-0.5 translate-y-1.5 touch-none select-none flex-col bg-zinc-100 dark:bg-zinc-800"
           orientation="horizontal"
         >
-          <ScrollArea.Thumb className="relative flex-1 rounded-lg bg-zinc-300 dark:bg-zinc-700" />
+          <ScrollArea.Thumb className="relative flex-1 rounded-lg bg-zinc-300 dark:bg-zinc-700 " />
         </ScrollArea.Scrollbar>
       </ScrollArea.Root>
     </Tabs.Root>
